@@ -1,0 +1,17 @@
+{
+  "Periods": [
+    {
+      "PeriodName": "OfficeHours",
+      "BeginTime": "09:00",
+      "EndTime": "17:00",
+      "Days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    }
+  ],
+  "Schedules": [
+    {
+      "ScheduleName": "WorkdaySchedule",
+      "Periods": ["OfficeHours"],
+      "TimeZone": "America/Los_Angeles"
+    }
+  ]
+}
