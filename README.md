@@ -38,7 +38,8 @@ The project automates EC2 instance management with the AWS Instance Scheduler us
 
 ## Architecture Diagram
 
-A visual diagram of the architecture will be uploaded separately.
+<img width="871" alt="ec2-automation-diagram" src="https://github.com/user-attachments/assets/56128b8c-21ff-42f3-8ddc-4c9118376b11">
+
 
 ## Implementation Steps
 
