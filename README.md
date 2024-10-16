@@ -17,12 +17,17 @@
    - [Prerequisites](#prerequisites)
    - [Terraform Configuration Steps](#terraform-configuration-steps)
 8. [Conclusion](#conclusion)
+9. [Resources](#resources)
+
+---
 
 ## Introduction
 
 In today’s cloud-driven environments, automation is key to improving operational efficiency and cutting costs. AWS Instance Scheduler automates the starting and stopping of Amazon EC2 instances based on predefined schedules, ensuring that instances run only when necessary. By deploying AWS Instance Scheduler, organizations can manage their cloud resources in a secure, scalable, and cost-effective manner.
 
 This project demonstrates how to implement the AWS Instance Scheduler with an emphasis on security, using services like AWS Lambda, DynamoDB, CloudFormation, and IAM. It also includes a Terraform configuration for Infrastructure as Code (IaC) deployment, ensuring the solution is repeatable and compliant with best practices.
+
+---
 
 ## Project Overview
 
@@ -36,10 +41,14 @@ The project automates EC2 instance management with the AWS Instance Scheduler us
 - **AWS Key Management Service (KMS)**: Secures sensitive data such as DynamoDB entries and CloudWatch logs.
 - **Amazon CloudWatch**: Provides monitoring and logging of automation tasks.
 
+---
+
 ## Architecture Diagram
 
 <img width="871" alt="ec2-automation-diagram" src="https://github.com/user-attachments/assets/56128b8c-21ff-42f3-8ddc-4c9118376b11">
 
+
+---
 
 ## Implementation Steps
 
@@ -183,3 +192,15 @@ This project also provides an IaC (Infrastructure-as-Code) solution using Terraf
 ## Conclusion
 
 By implementing AWS Instance Scheduler, you can automate the management of EC2 instances, leading to reduced operational costs and enhanced security. This project not only demonstrates practical automation using AWS services but also showcases the importance of security best practices. By incorporating encryption, least privilege access, and VPC isolation, this solution aligns with industry standards for secure cloud infrastructure. The Terraform integration further ensures scalability and consistency, making this a robust and comprehensive solution for any cloud environment.
+
+---
+
+## Resources
+
+1. [AWS Instance Scheduler Documentation](https://docs.aws.amazon.com/solutions/latest/instance-scheduler/welcome.html)
+2. [CloudFormation Template for Instance Scheduler](https://aws.amazon.com/solutions/implementations/instance-scheduler/)
+3. [AWS DynamoDB Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html)
+4. [Terraform Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+5. [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
+6. [AWS KMS Best Practices](https://docs.aws.amazon.com/kms/latest/developerguide/best-practices.html)
+7. [AWS CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/)
